@@ -40,6 +40,11 @@
     .item {
         flex-basis: 200px;
         height: 200px;
+        font-size: 18px;
+    }
+    .header, .footer {
+        flex-basis: 50px;
+        font-size: 20px;
     }
 }
 
@@ -47,6 +52,11 @@
     .item {
         flex-basis: 160px;
         height: 160px;
+        font-size: 20px;
+    }
+    .header, .footer {
+        flex-basis: 40px;
+        font-size: 14px;
     }
 }
 
