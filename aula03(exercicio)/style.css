@@ -10,18 +10,18 @@
     background-color: black;
     justify-content: space-between;
     align-items: center;
-    min-height: 20vh;
+    min-height: 10vh;
     padding: 0px 40px;
 }
 
 .icon-content {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 60px;
 }
 
 .img-content {
-    width: 430px;
-    height: 130px;
+    width: 300px;
+    height: 100px;
 }
 
 .nav-button {
