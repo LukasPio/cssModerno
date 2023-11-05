@@ -19,7 +19,7 @@
     width: 100%;
     justify-content: space-between;
     background-color: #272525;
-    height: 16vh;
+    flex-basis: 16vh;
     padding: 2%;
     flex-wrap: wrap;
     align-items: center;
