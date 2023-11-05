@@ -39,27 +39,113 @@
 
 .nav-buttons > p {
     transition: 0.6s;
+    cursor: pointer;
 }
 
 .img-onebitcode {
     width: 250px;
     height: auto;
+    cursor: pointer;
 }
 
 .back-to-start {
     font-size: 20px;
     color: white;
     font-family: SansSerif;
+    transition: 0.6s;
 }
 
+.back-to-start:hover {
+    color: #a6a0a0;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 70%;
+    margin: 40px;
+}
+
+.sport-img {
+    width: 275px;
+    height: 180px;
+    border-radius: 12px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 300px;
+}
+
+.sport-description {
+    width: 270px;
+}
+
+.sport-title {
+    margin: 5px 0;
+}
+
+.main-container {
+    display: flex;
+}
+
+.secondary-content {
+    display: flex;
+    width: 350px;
+    background-color: rgb(71, 69, 69);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 45px 0;
+    padding: 20px;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.extra-sport-card {
+    width: 200px;
+    height: auto;
+}
+
+.extra-sport-card > h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.extra-img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.extra-title {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+@media (max-width: 750px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media (max-width: 594px) {
     .nav-bar {
         justify-content: center;
         align-items: center;
     }
+
     .img-onebitcode {
         width: 200px;
     }
+
     .nav-buttons {
         margin-top: 6px;
         font-size: 14px;
@@ -69,11 +155,43 @@
 @media (max-width: 500px) {
     .footer {
         flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
+
     .back-to-start {
         font-size: 16px;
     }
+
     .img-onebitcode {
         width: 160px;
+    }
+}
+
+@media (max-width: 400px) {
+    .secondary-content {
+        width: 70%;
+        margin: 0 0 20px;
+        padding: 10px;
+    }
+    .extra-img {
+        width: 160px;
+    }
+    .extra-sport-card > h2 {
+        font-size: 16px;
+    }
+    .sport-img {
+        width: 240px;
+        height: auto;
+    }
+    .sport-description {
+        width: 230px;
+        font-size: 12px;
+    }
+    .sport-title {
+        font-size: 13px;
+    }
+    .main-content {
+        padding: 0;
     }
 }
